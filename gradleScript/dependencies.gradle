@@ -1,0 +1,38 @@
+ext {
+    versions = [
+            koin                    : "3.1.4",
+            lifecycle               : "2.4.0",
+            arch                    : "2.1.0",
+            kotlin                  : "1.7.0",
+            appCompat               : "1.4.0",
+            constraintLayout        : "2.1.2",
+            retrofit                : "2.9.0",
+            gson                    : "2.8.9",
+            gsonConverter           : "2.9.0",
+            httpLogging             : "4.9.3",
+            coroutine               : "1.6.0-RC",
+            recyclerView            : "1.2.1",
+            lottie                  : "4.2.2",
+            glide                   : "4.12.0"
+
+    ]
+
+    lib = [
+            koinCore                : "io.insert-koin:koin-android:$versions.koin",
+            viewModel               : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle",
+            liveData                : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifecycle",
+            kotlin                  : "androidx.core:core-ktx:$versions.kotlin",
+            appCompat               : "androidx.appcompat:appcompat:$versions.appCompat",
+            material                : "com.google.android.material:material:$versions.appCompat",
+            constraintLayout        : "androidx.constraintlayout:constraintlayout:$versions.constraintLayout",
+            retrofit                : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+            gson                    : "com.google.code.gson:gson:$versions.gson",
+            gsonConverter           : "com.squareup.retrofit2:converter-gson:$versions.gsonConverter",
+            httpLogging             : "com.squareup.okhttp3:logging-interceptor:$versions.httpLogging",
+            coroutine               : "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutine",
+            recyclerView            : "androidx.recyclerview:recyclerview:$versions.recyclerView",
+            lottie                  : "com.airbnb.android:lottie:$versions.lottie",
+            glide                   : "com.github.bumptech.glide:glide:$versions.glide",
+            glideAP                 : "com.github.bumptech.glide:compiler:$versions.glide"
+    ]
+}

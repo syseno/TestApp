@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="label_post_created_by_with_company_name">Ditulis Oleh : %s (%s) </string>
+    <string name="label_post_created_by">Ditulis Oleh : %s</string>
+    <string name="title_comment_section">Komentar</string>
+    <string name="title_albums_section">Album</string>
+    <string name="label_address_of_user">%s, %s</string>
+</resources>
